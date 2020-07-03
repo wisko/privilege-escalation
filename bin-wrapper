@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# sudo needed to exec this script
+sudo /usr/local/bin/tease-message.sh
+
+exec /bin/ls-real "$@"
